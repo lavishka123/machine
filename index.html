@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    
+    <div class="main">
+        <div class="full-width"> <input type="text" id="output"></div>
+        <div class="full-width">
+             <button onclick="clearValue()">C</button>
+             <button onclick="clearAllValue()">AC</button>
+        </div>
+        <div>
+            <div class="row">
+                <button onclick="getNumber(this)">7</button>
+                <button onclick="getNumber(this)">8</button>
+                <button onclick="getNumber(this)">9</button>
+                <button onclick="getNumber(this)">*</button>
+            </div>
+            <div class="row">
+                <button onclick="getNumber(this)">4</button>
+                <button onclick="getNumber(this)">5</button>
+                <button onclick="getNumber(this)">6</button>
+                <button onclick="getNumber(this)">-</button>
+            </div>
+            <div class="row">
+                <button onclick="getNumber(this)">1</button>
+                <button onclick="getNumber(this)">2</button>
+                <button onclick="getNumber(this)">3</button>
+                <button onclick="getNumber(this)">+</button>
+            </div>
+            <div class="row">
+                <button onclick="getNumber(this)">0</button>
+                <button onclick="getNumber(this)">/</button>
+                <button onclick="getResult()">=</button>
+                <button onclick="getNumber(this)">.</button>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
